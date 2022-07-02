@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Only HTML Form</title>
+        <script>
+            function funReally() {
+                let funReally = alert("Are you sure to execute this action?");
+                 if (funReally) {
+                   alert("Action successfully executed");
+                   } else {
+                     alert("Action canceled");  
+                  }
+            }
+        </script>
+    </head>
+
+    <body>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" onclick="funReally()"><br><br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="birthdate">Birthday:</label>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="password">Password again:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+
+        <input type="submit" value="Submit">
+    </body>
+
+</html>
